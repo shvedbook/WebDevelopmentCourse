@@ -53,6 +53,7 @@ body {
     display: block;
     margin: 0 auto;
     target-new:tab;
+    transition: background-image 0.1s ease-in-out;
 
     width: 220px;
     height: 220px;
@@ -81,11 +82,7 @@ body {
     margin: 0 auto;
     width: 150px;
     height: 75px;
-    -webkit-transition: color .5s ease-in-out;
-    -moz-transition: color .5s ease-in-out;
-    -ms-transition: color .5s ease-in-out;
-    -o-transition: color .5s ease-in-out;
-    transition: color .5s ease-in-out;
+    transition: background-image 0.1s ease-in-out;
 }
 #facebook:hover {
     background-image: url("../images/facebookcolored.png");
@@ -102,11 +99,7 @@ body {
     margin: 0 auto;
     width: 150px;
     height: 145px;
-    -webkit-transition: color .5s ease-in-out;
-    -moz-transition: color .5s ease-in-out;
-    -ms-transition: color .5s ease-in-out;
-    -o-transition: color .5s ease-in-out;
-    transition: color .5s ease-in-out;
+    transition: background-image 0.1s ease-in-out;
 }
 #linkedin:hover {
     background-image: url("../images/linkedincolored.png");
