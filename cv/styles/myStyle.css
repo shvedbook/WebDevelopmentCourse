@@ -1,0 +1,129 @@
+body {
+       direction: rtl;
+    font-family: Alef;
+    color: #d9dada;
+       
+}
+ 
+#container {
+    margin: 0 auto;
+    width: 960px;
+    height: 960px;
+    background-color: #545557;
+
+}
+#header {
+    width:960px;
+    height:180px;
+    background-image: url("../images/logo1.png");
+}
+#rightsquare {
+     width: 590px;
+     height: 590px;
+     background-color: #343434;
+     float: right;
+
+ }
+
+#leftsquare {
+    width: 370px;
+    height: 590px;
+    background-color: lightgrey;
+    float: left;
+}
+#leftsquare1 {
+    width: 370px;
+    height: 370px;
+    background-image: url("../images/portrait.png");
+}
+#leftsquare2 {
+    width: 370px;
+    height:220px;
+    background-color: #3c3c3c;
+}
+#leftsquare3 {
+    width: 220px;
+    height:220px;
+    background-color: #3c3c3c;
+    float: right;
+
+}
+#gmail {
+    background-image: url("../images/gmail.png");
+    display: block;
+    margin: 0 auto;
+    target-new:tab;
+
+    width: 220px;
+    height: 220px;
+
+}
+#gmail:hover {
+    background-image: url("../images/gmailcolored.png");
+    animation-delay: 2s;
+    animation: ease-in;
+}
+#leftsquare4 {
+    width: 150px;
+    height:220px;
+    background-color: #3c3c3c;
+    float: left;
+}
+#leftsquare5 {
+    width: 150px;
+    height:75px;
+    background-color: #3c3c3c;
+    float: left;
+}
+#facebook {
+    background-image: url("../images/facebookbw.png");
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 75px;
+    -webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -ms-transition: color .5s ease-in-out;
+    -o-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+#facebook:hover {
+    background-image: url("../images/facebookcolored.png");
+}
+#leftsquare6 {
+    width: 150px;
+    height:145px;
+    background-color: #3c3c3c;
+    float: left;
+}
+#linkedin {
+    background-image: url("../images/linkedin.png");
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 145px;
+    -webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -ms-transition: color .5s ease-in-out;
+    -o-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+#linkedin:hover {
+    background-image: url("../images/linkedincolored.png");
+}
+#footer {padding: 10px;
+    width:960px;
+    height:180px;
+    background: transparent;
+}
+#footer {
+    padding-top: 50px;
+padding-right: 10px;}
+
+
+.bold {
+    font-weight: bold;
+}
+p {
+    padding: 20px;
+}
