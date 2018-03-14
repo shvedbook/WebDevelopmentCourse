@@ -53,7 +53,7 @@ body {
     display: block;
     margin: 0 auto;
     target-new:tab;
-    transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.3s ease-in-out;
 
     width: 220px;
     height: 220px;
@@ -82,7 +82,7 @@ body {
     margin: 0 auto;
     width: 150px;
     height: 75px;
-    transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.3s ease-in-out;
 }
 #facebook:hover {
     background-image: url("../images/facebookcolored.png");
@@ -99,7 +99,7 @@ body {
     margin: 0 auto;
     width: 150px;
     height: 145px;
-    transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.3s ease-in-out;
 }
 #linkedin:hover {
     background-image: url("../images/linkedincolored.png");
