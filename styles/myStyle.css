@@ -119,11 +119,13 @@ body {
 #linkedin:hover {
     background-image: url("../images/linkedincolored.png");
 }
-#footer {float: right;
-       padding: 10px;
-    width:960px;
-    height:180px;
-    background: transparent;
+#footer {
+       float: right;
+    padding: 10px;
+    width: 960px;
+    height: 80px;
+    background: #545557;
+    border-radius: 25px;
 }
 
 .bold {
