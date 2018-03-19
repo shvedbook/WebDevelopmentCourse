@@ -4,13 +4,13 @@ body {
     direction: rtl;
     font-family: Alef;
     color: #d9dada;
-    background-image: url("backpic.jpg");
+    background-image: url("../images/12.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    max-height: 1000px;
-    max-width: 2000px;
+    max-height: 300px;
+    max-width: 1000px;
 
 }
 
@@ -152,7 +152,15 @@ p {
     display: block;
     float:right;
     width: 25%;
+    -webkit-transition: font-size .2s ease-in-out;
+    -moz-transition: font-size .2s ease-in-out;
+    -ms-transition: font-size .2s ease-in-out;
+    -o-transition: font-size .5s ease-in-out;
+    transition: font-size .2s ease-in-out;
 
+}
+#nav1 ul li:hover{
+    font-size: x-large;
 }
 #nav1 ul li a {
     display: block;
