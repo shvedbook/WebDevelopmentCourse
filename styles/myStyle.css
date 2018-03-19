@@ -1,19 +1,25 @@
 body {
-       width:90%;
-       margin:auto;
-       min-width:600px;
-       max-width:2000px;
-       direction: rtl;
+    width:90%;
+    min-width:600px;
+    direction: rtl;
     font-family: Alef;
     color: #d9dada;
-       
+    background-image: url("../images/12.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    max-height: 300px;
+    max-width: 1000px;
+
 }
- 
+
 #container {
     margin: 0 auto;
     width: 960px;
     height: 760px;
     background-color: #545557;
+
 
 }
 #header {
@@ -22,12 +28,14 @@ body {
     background-image: url("../images/logo1.png");
 }
 #rightsquare {
-     width: 590px;
-     height: 590px;
-     background-color: #343434;
-     float: right;
+    width: 590px;
+    height: 590px;
+    background-color: #343434;
+    float: right;
+    opacity: 0.6;
 
- }
+
+}
 
 #leftsquare {
     width: 370px;
@@ -120,12 +128,12 @@ body {
     background-image: url("../images/linkedincolored.png");
 }
 #footer {
-       float: right;
-  
+    float: right;
+
     width: 960px;
     height: 80px;
     background: #545557;
-       }
+}
 }
 
 .bold {
@@ -133,4 +141,51 @@ body {
 }
 p {
     padding: 20px;
+}
+#nav1 ul {
+    list-style: none;
+    width: 590px;
+
+
+}
+#nav1 ul li {
+    display: block;
+    float:right;
+    width: 25%;
+
+}
+#nav1 ul li a {
+    display: block;
+    background-color: #2f2f33;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+nav ul li a:hover
+{
+    background-color: #3097D2;
+}
+nav ul li a:active
+{
+    background-color: green;
+}
+nav ul li ul
+{
+    display: none;
+    position: absolute;
+}
+nav ul li:hover > ul
+{
+    display:block;
+    width: 120px;
+}
+nav ul li
+{
+    display:inline-block;
+}
+p {
+    float: right;
 }
