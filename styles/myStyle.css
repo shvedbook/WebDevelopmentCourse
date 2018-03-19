@@ -4,7 +4,7 @@ body {
     direction: rtl;
     font-family: Alef;
     color: #d9dada;
-    background-image: url(12.jpg);
+    background-image: url("12.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
