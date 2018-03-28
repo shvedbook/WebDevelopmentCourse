@@ -1,0 +1,182 @@
+body{
+    direction:rtl;
+    background: url(../images/background2.jpg) no-repeat center center fixed #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Alef, sans-serif;
+    font-size: 14pt;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,span {
+    font-family: Alef, sans-serif;
+}
+h1 {
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 22pt;
+    color: white;
+    font-style: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #226d73;
+
+}
+h2 {
+    padding-top: 5px;
+    padding-right: 25px;
+    font-size: 18pt;
+    color: white;
+    font-style: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #226d73;
+    text-align: right;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+a:hover {
+    background-color: #31a6af;
+}
+
+
+
+#big {
+     font-size: 20pt ;
+     font-weight: bold;
+     margin-right: 20px;
+
+ }
+#big2 {
+    font-size: 15pt ;
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+#container{
+    width:100%;
+
+}
+#links {
+    float: right;
+}
+#facebook {
+background-color: transparent;
+}
+#facebook img {
+     width:100px;
+     height:100px;
+     background-color: transparent;
+     position: relative;
+     -ms-transition: all 100ms ease-in;
+     -webkit-transition: 150ms ease-in;
+
+
+
+
+
+ }
+#ccontainer {
+    float: left;
+    width: 37%;
+    height: 50vh ;
+    padding: 20px;
+    margin-left: -25px;
+    margin-top: 50px;
+    position: relative ;
+}
+#facebook img:hover {
+
+
+    -webkit-transition: all 150ms ease-in;
+    -webkit-transform: scale(1.2);
+
+    -ms-transform: scale(1.2);
+    -moz-transition: all 150ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 150ms ease-in;
+    transform: scale(1.2);
+    background-color: transparent;
+}
+
+
+
+
+}
+#facebook:hover {
+background-color: transparent;
+}
+
+
+#rtrapezoid {
+    display: block;
+    background-color: #226d73;
+
+    position: center;
+    width: 30%;
+    height: 90vh;
+    z-index: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    border-radius:10px 10px;
+    float:left;
+    margin-left:2vh;
+    margin-top: 2vh;
+
+
+
+}
+#form {
+    display: block;
+    margin-right: 5vh;
+}
+label{
+    display:block;
+    margin-top:10px;
+}
+
+input[type ='text'] , input[type ='password'] ,textarea , select , input[type ='email']{
+    display:block;
+    margin-bottom:15px;
+}
+
+input[type ='submit']
+{
+    margin-top:10px;
+}
+#melel {
+    color: #226d73;
+    font-size: 18pt ;
+    font: bold;
+    font-family: Alef;
+    padding-bottom: 5px;
+
+
+}
+#bigger {
+       color: #226d73;
+       font-size: 22pt ;
+       font: bold;
+       font-family: Alef;
+    padding-bottom: 5px;
+   }
+#bigger2 {
+    color: #226d73;
+    font-size: 25pt ;
+    font: bolder;
+    font-family: Alef;
+    padding-bottom: 5px;
+}
+#bigger3 {
+    color: #226d73;
+    font-size: 25pt ;
+    font: bolder;
+    font-family: Alef;
+    padding-bottom: 5px;
+}
