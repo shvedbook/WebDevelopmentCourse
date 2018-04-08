@@ -2,7 +2,7 @@ body
 {
     direction: rtl;
     padding: 0;
-    color: #4caf4e;
+    color: #0D0B0B;
     background-color: white;
     margin-bottom: 0px;
 
@@ -125,13 +125,8 @@ a {
 }
 #four:hover {
     transform: scale(1.3);
-   e
-}
-#facebook {
-float: right;
-    margin-top: 0;
-}
 
+}
 
 
 #contact input[type="text"],
@@ -148,7 +143,7 @@ float: right;
     background: #F9F9F9;
     width: 70%;
     padding: 25px;
-    margin: 150px 50px;
+    margin: 35vh 50px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
@@ -231,7 +226,7 @@ float: right;
 #melel {
     padding: 10vh;
     margin-top: 8vh;
-    color: #4caf4e
+    color: #0D0B0B
 }
 
 #tmuna0 {
@@ -265,16 +260,18 @@ float: right;
 
 
 }
-#melel2 {color: #4caf4e;
+#melel2 {color: #0D0B0B;
     pointer-events: none;
     cursor: default;
     text-decoration:none;
     margin-right: 11vh;
+    padding: 7px;
 
 
 }
 #rodef {
     margin-right: 12vh;
+    padding: 7px;
 
 
 
@@ -297,10 +294,20 @@ float: right;
 #facebook {
     width: 50px;
     height: 50px;
+    transition: transform .3s;
+    float: right;
+    margin-top: 0;
+}
+#facebook:hover {
+    transform: scale(1.15);
 }
 #email {
     width: 50px;
     height: 50px;
+    transition: transform .3s;
+}
+#email:hover {
+    transform: scale(1.15);
 }
 #footer {
     background-color: white;
