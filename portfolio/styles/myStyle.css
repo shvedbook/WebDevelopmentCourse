@@ -307,7 +307,7 @@ a {
     transition: transform .3s;
 }
 #email:hover {
-    transform: scale(1.15);
+    transform: scale(0.75);
 }
 #footer {
     background-color: white;
@@ -319,4 +319,8 @@ a {
     right: 0px;
     margin-bottom: 0px;
 
+}
+#video {
+    margin-right: 10vh;
+    padding: 5vh;
 }
